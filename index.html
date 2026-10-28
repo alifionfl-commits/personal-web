@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Python + HTML + CSS</title>
+    <!-- HUBUNGKAN DENGAN FILE CSS DI FOLDER STATIC -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Selamat Datang di Web Python Flask</h1>
+        <p>Halaman ini disajikan oleh server backend Python, dengan struktur HTML, dan dipercantik menggunakan CSS terpisah.</p>
+        
+        <h2>Kelebihan Menggunakan Python:</h2>
+        <ul>
+            <li>Dapat terhubung dengan database</li>
+            <li>Keamanan data lebih terjamin</li>
+            <li>Bisa mengolah logika data yang rumit</li>
+        </ul>
+    </div>
+
+</body>
+</html>
